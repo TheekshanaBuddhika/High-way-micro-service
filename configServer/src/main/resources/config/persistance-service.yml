@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/micro_service_highway?createDatabaseIfNotExist=true
     username: root
-    password: dragon25
+    password: Dew@2005
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 20
@@ -14,7 +14,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
 
 server:
   port: 8081

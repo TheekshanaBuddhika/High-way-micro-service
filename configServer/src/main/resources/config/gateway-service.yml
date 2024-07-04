@@ -13,25 +13,24 @@ spring:
     name: gateway-service
   cloud:
     gateway:
-      mvc:
-        routes:
-          - id: persistence-service
-            uri: lb://persistence-service
-            predicates:
-              - Path=/api/v1/persistence/**
-          - id: user-service
-            uri: lb://user-service
-            predicates:
-              - Path=/api/v1/user/**
-          - id: vehicle-service
-            uri: lb://vehicle-service
-            predicates:
-              - Path=/api/v1/vehicle/**
-          - id: ticket-service
-            uri: lb://ticket-service
-            predicates:
-              - Path=/api/v1/ticket/**
-          - id: payment-service
-            uri: lb://payment-service
-            predicates:
-              - Path=/api/v1/payment/**
+      routes:
+        - id: persistenceService
+          uri: lb://persistence-service
+          predicates:
+            - Path=/api/v1/persistence/**
+        - id: userService
+          uri: lb://user-service
+          predicates:
+            - Path=/api/v1/user/**
+        - id: vehicleService
+          uri: http://192.168.1.6:8083
+          predicates:
+            - Path=/api/v1/vehicle/**
+        - id: ticketService
+          uri: lb://ticket-service
+          predicates:
+            - Path=/api/v1/ticket/**
+        - id: paymentService
+          uri: lb://payment-service
+          predicates:
+            - Path=/api/v1/payment/**
