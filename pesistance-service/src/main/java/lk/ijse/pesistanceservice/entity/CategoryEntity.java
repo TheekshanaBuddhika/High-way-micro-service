@@ -12,6 +12,7 @@ import java.util.List;
 
 @Getter
 @Setter
+@Builder
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
@@ -23,7 +24,7 @@ public class CategoryEntity implements Serializable {
     @Column(name = "category_id")
     private Long id;
 
-    @Column(name = "category_name")
+    @Column(name = "category_name",unique = true)
     private String categoryName;
 
 
