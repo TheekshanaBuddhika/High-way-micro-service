@@ -1,7 +1,7 @@
-package lk.ijse.paymentservice.service;
+package lk.ijse.payment_service.service;
 
-import lk.ijse.paymentservice.dto.PaymentDTO;
-import lk.ijse.paymentservice.dto.ResponseDTO;
+import lk.ijse.payment_service.dto.PaymentDTO;
+import lk.ijse.payment_service.dto.ResponseDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -23,4 +23,3 @@ public class PaymentService {
         }
     }
 }
-

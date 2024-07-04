@@ -1,12 +1,9 @@
-package lk.ijse.paymentservice.controller;
+package lk.ijse.payment_service.controller;
 
-import lk.ijse.paymentservice.dto.PaymentDTO;
-import lk.ijse.paymentservice.dto.ResponseDTO;
-import lk.ijse.paymentservice.service.PaymentService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.ijse.payment_service.dto.PaymentDTO;
+import lk.ijse.payment_service.dto.ResponseDTO;
+import lk.ijse.payment_service.service.PaymentService;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/payment")

@@ -1,8 +1,9 @@
-package lk.ijse.paymentservice.dto;
+package lk.ijse.payment_service.dto;
 
 import lombok.*;
 
 import java.io.Serializable;
+
 
 @Getter
 @Setter
