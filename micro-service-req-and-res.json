@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "b8fbf2fd-60ed-4951-980e-14cb791427f4",
+		"name": "micaro-service-cw",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20003810"
+	},
+	"item": [
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":null,\n    \"categoryName\":\"car\",\n    \"createBy\":\"dew\",\n    \"modifyBy\":null,\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/vehicle/category"
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "disable",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/category/en/1"
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/category/get/1"
+					},
+					"response": []
+				},
+				{
+					"name": "get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/category/all"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "vehicle",
+			"item": [
+				{
+					"name": "get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/all"
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/get/1"
+					},
+					"response": []
+				},
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\n    \"id\":null,\n    \"vehicleNumber\":\"ABC-0998\",\n    \"vehicleBrand\":\"toyota\",\n    \"vehicleModel\":\"axio\",\n    \"categoryId\":1,\n    \"createBy\":\"dew\",\n    \"modifyBy\":null,\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/vehicle"
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "disable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/dis/1"
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/vehicle/en/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":null,\n    \"userName\":\"Dewmith\",\n    \"password\":\"Dew@2005\",\n    \"email\":\"test@gmail.com\",\n    \"mobile\":\"+003288377\",\n    \"createBy\":\"dew\",\n    \"modifyBy\":null,\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/user"
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":1,\n    \"userName\":\"Mihisara\",\n    \"password\":\"Dew@2005\",\n    \"email\":\"testing123@gmail.com\",\n    \"mobile\":\"+0032332328377\",\n    \"createBy\":\"dew\",\n    \"modifyBy\":\"dew\",\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/user"
+					},
+					"response": []
+				},
+				{
+					"name": "get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/user/all"
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/user/get/1"
+					},
+					"response": []
+				},
+				{
+					"name": "enable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/user/en/1"
+					},
+					"response": []
+				},
+				{
+					"name": "disable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/user/dis/1"
+					},
+					"response": []
+				},
+				{
+					"name": "change pw",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ticket",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":null,\n    \"issueDate\":null,\n    \"issueLocation\":\"mathara\",\n    \"issueTime\":null,\n    \"arrivalDate\":null,\n    \"arrivalLocation\":null,\n    \"arrivalTime\":null,\n    \"status\":null,\n    \"userId\":1,\n    \"paymentId\":null,\n    \"vehicleId\":2,\n    \"createBy\":\"dew\",\n    \"modifyBy\":null,\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/ticket"
+					},
+					"response": []
+				},
+				{
+					"name": "disable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/ticket/dis/1"
+					},
+					"response": []
+				},
+				{
+					"name": "get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/ticket"
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "by status",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "payment",
+			"item": [
+				{
+					"name": "save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":null,\n    \"cashierName\":\"saman\",\n    \"cashierId\":1,\n    \"chargePerKm\":100,\n    \"totalKm\":10,\n    \"totalAmount\":1000,\n    \"ticketId\": 1 ,\n    \"payedLocation\":\"kaluthara\",\n    \"createBy\":\"dew\",\n    \"modifyBy\":null,\n    \"isActive\":true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/payment"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
