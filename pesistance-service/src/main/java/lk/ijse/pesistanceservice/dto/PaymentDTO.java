@@ -17,6 +17,7 @@ public class PaymentDTO implements Serializable {
     private double totalKm;
     private double totalAmount;
     private Long ticketId;
+    private String payedLocation;
     private String createBy;
     private String modifyBy;
     private boolean isActive;
