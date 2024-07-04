@@ -1,8 +1,8 @@
-package lk.ijse.userservice.service;
+package lk.ijse.user_service.service;
 
-import lk.ijse.userservice.dto.AuthDTO;
-import lk.ijse.userservice.dto.ResponseDTO;
-import lk.ijse.userservice.dto.UserDTO;
+import lk.ijse.user_service.dto.AuthDTO;
+import lk.ijse.user_service.dto.ResponseDTO;
+import lk.ijse.user_service.dto.UserDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

@@ -1,9 +1,9 @@
-package lk.ijse.userservice.controller;
+package lk.ijse.user_service.controller;
 
-import lk.ijse.userservice.dto.AuthDTO;
-import lk.ijse.userservice.dto.ResponseDTO;
-import lk.ijse.userservice.dto.UserDTO;
-import lk.ijse.userservice.service.UserService;
+import lk.ijse.user_service.dto.AuthDTO;
+import lk.ijse.user_service.dto.ResponseDTO;
+import lk.ijse.user_service.dto.UserDTO;
+import lk.ijse.user_service.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

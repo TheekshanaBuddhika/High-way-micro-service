@@ -1,4 +1,4 @@
-package lk.ijse.userservice.dto;
+package lk.ijse.user_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

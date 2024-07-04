@@ -1,4 +1,4 @@
-package lk.ijse.userservice;
+package lk.ijse.user_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,14 +11,14 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 public class UserServiceApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(UserServiceApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(UserServiceApplication.class, args);
+	}
 
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
+	@Bean
+	@LoadBalanced
+	public RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
 
 }
