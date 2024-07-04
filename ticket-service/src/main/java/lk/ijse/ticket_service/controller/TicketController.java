@@ -1,8 +1,8 @@
-package lk.ijse.ticketservice.controller;
+package lk.ijse.ticket_service.controller;
 
-import lk.ijse.ticketservice.dto.ResponseDTO;
-import lk.ijse.ticketservice.dto.TicketDTO;
-import lk.ijse.ticketservice.service.TicketService;
+import lk.ijse.ticket_service.dto.ResponseDTO;
+import lk.ijse.ticket_service.dto.TicketDTO;
+import lk.ijse.ticket_service.service.TicketService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,7 +1,7 @@
-package lk.ijse.ticketservice.service;
+package lk.ijse.ticket_service.service;
 
-import lk.ijse.ticketservice.dto.ResponseDTO;
-import lk.ijse.ticketservice.dto.TicketDTO;
+import lk.ijse.ticket_service.dto.ResponseDTO;
+import lk.ijse.ticket_service.dto.TicketDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

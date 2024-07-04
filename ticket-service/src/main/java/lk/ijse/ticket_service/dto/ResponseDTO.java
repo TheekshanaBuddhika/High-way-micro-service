@@ -1,4 +1,4 @@
-package lk.ijse.ticketservice.dto;
+package lk.ijse.ticket_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
