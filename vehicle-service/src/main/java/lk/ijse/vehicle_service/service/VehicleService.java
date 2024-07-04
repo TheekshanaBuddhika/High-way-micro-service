@@ -1,7 +1,8 @@
-package lk.ijse.vehicleservice.service;
+package lk.ijse.vehicle_service.service;
 
-import lk.ijse.vehicleservice.dto.ResponseDTO;
-import lk.ijse.vehicleservice.dto.VehicleDTO;
+import lk.ijse.vehicle_service.dto.ResponseDTO;
+import lk.ijse.vehicle_service.dto.VehicleDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -38,4 +39,3 @@ public class VehicleService {
         return restTemplate.getForObject("http://persistence-service/api/v1/persistence/vehicle/" + id, ResponseDTO.class);
     }
 }
-

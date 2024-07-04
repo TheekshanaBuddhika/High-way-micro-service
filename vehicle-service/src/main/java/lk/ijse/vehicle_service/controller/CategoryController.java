@@ -1,9 +1,11 @@
-package lk.ijse.vehicleservice.controller;
+package lk.ijse.vehicle_service.controller;
 
-import lk.ijse.vehicleservice.dto.CategoryDTO;
-import lk.ijse.vehicleservice.dto.ResponseDTO;
-import lk.ijse.vehicleservice.service.CategoryService;
+import lk.ijse.vehicle_service.dto.CategoryDTO;
+import lk.ijse.vehicle_service.dto.ResponseDTO;
+import lk.ijse.vehicle_service.service.CategoryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 @RequestMapping("/api/v1/vehicle/category")

@@ -1,7 +1,7 @@
-package lk.ijse.vehicleservice.service;
+package lk.ijse.vehicle_service.service;
 
-import lk.ijse.vehicleservice.dto.CategoryDTO;
-import lk.ijse.vehicleservice.dto.ResponseDTO;
+import lk.ijse.vehicle_service.dto.CategoryDTO;
+import lk.ijse.vehicle_service.dto.ResponseDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

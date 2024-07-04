@@ -1,8 +1,8 @@
-package lk.ijse.vehicleservice.controller;
+package lk.ijse.vehicle_service.controller;
 
-import lk.ijse.vehicleservice.dto.ResponseDTO;
-import lk.ijse.vehicleservice.dto.VehicleDTO;
-import lk.ijse.vehicleservice.service.VehicleService;
+import lk.ijse.vehicle_service.dto.ResponseDTO;
+import lk.ijse.vehicle_service.dto.VehicleDTO;
+import lk.ijse.vehicle_service.service.VehicleService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

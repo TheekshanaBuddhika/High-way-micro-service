@@ -1,4 +1,4 @@
-package lk.ijse.vehicleservice.dto;
+package lk.ijse.vehicle_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
